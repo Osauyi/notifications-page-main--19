@@ -1,0 +1,197 @@
+*{
+  box-sizing: border-box;
+}
+
+:root{
+--Red: hsl(1, 90%, 64%);
+--Blue: hsl(219, 85%, 26%);
+--White: hsl(0, 0%, 100%);
+--Very-light-grayish-blue: hsl(210, 60%, 98%);
+--Light-grayish-blue-1: hsl(211, 68%, 94%);
+--Light-grayish-blue-2: hsl(205, 33%, 90%);
+--Grayish-blue: hsl(219, 14%, 63%);
+--Dark-grayish-blue: hsl(219, 12%, 42%);
+--Very-dark-blue: hsl(224, 21%, 14%);
+}
+
+
+body{
+  background-color: var(--White);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 15px 20px 0px;
+}
+
+h1 {
+  color: var(--Very-dark-blue);
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+h2{
+  font-size: .85rem;
+  font-weight: 800;
+  color: var(--Very-dark-blue);
+
+}
+
+p, .time{
+  font-weight: 500;
+  font-size: .85rem;
+  color: var(--Dark-grayish-blue);
+}
+
+header{
+  display: flex;
+}
+
+.MarkR{
+  width: 60%;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--Dark-grayish-blue);
+
+}
+
+.headNumb{
+  display: flex;
+  align-self: center;
+  background-color: var(--Blue);
+  color: var(--White);
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.comment{
+  display: flex;
+  margin-top: 11px;
+  border-radius: 8px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.top3{
+  background-color: var(--Very-light-grayish-blue);
+  padding-bottom: 10px;
+}
+
+.PFP, .PFP2{
+  width: 2.1875rem;
+  height: 2.1875rem;
+  margin-top: 8px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.text h2, .text p{
+  display: inline-flex;
+}
+
+.secondSpan, .firstSpan, .mainSpan{
+  font-size: .85rem;
+  font-weight: 800;
+}
+
+.mainSpan{
+  margin-right: 4px;
+  color: var(--Very-dark-blue);
+}
+
+.firstSpan{
+  margin-left: 5px;
+  color: var(--Dark-grayish-blue);
+}
+
+.firstSpan:hover, .MarkR:hover{
+  color: var(--Blue);
+}
+.TextBox, .rizkyBox{
+  width: 84%;
+  margin-left: 0.625rem;
+}
+
+.redDot{
+  width: 0.5rem;
+  margin-left: 2px;
+}
+
+.subtext{
+  display: inline-flex;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.subtext p{
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.james p{
+  margin-right: 1.25rem;
+}
+
+
+.rizkyBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.rizkytex{
+  width: 100%;
+  margin: 0;
+}
+
+.incomment{
+  margin-top: 10px;
+  border: 1px solid var(--Grayish-blue);
+  border-radius: 5px;
+}
+
+.incomment:hover{
+  background-color: var(--Light-grayish-blue-1);
+}
+
+.incomment P{
+  padding-left: 0.875rem;
+  padding-right: 2.6875rem;
+}
+
+.kimberbox{
+  width: 73%;
+  padding-right: 2.25rem;
+}
+
+footer{
+  margin-top: 3.75rem;
+}
+
+
+@media screen and (min-width: 62.5rem){
+  body{
+    background-color: var(--Very-light-grayish-blue);
+  }
+
+  main{
+    width: 44%;
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 30px 20px 20px 35px ;
+    margin: 50px auto;
+  }
+
+  .MarkR{
+    width: 80%;
+  }
+
+  .comment{
+    justify-content: initial;
+  }
+}
